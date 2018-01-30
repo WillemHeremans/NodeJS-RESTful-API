@@ -37,7 +37,7 @@ require('./api/config/passport')(passport);
 app.use('/users', users);
 
 app.get('/', (req, res) => {
-  res.send('Invalid Endpoint');
+  res.send('Ma page d\'accueil ! :-)');
 });
 
 app.get('*', (req, res) => {
